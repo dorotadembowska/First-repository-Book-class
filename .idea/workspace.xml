@@ -15,7 +15,7 @@
       <file leaf-file-name="book.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
+            <state relative-caret-position="-136">
               <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
@@ -158,8 +158,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32928312" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32928312" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32928312" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28189552" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
@@ -183,7 +183,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
+        <state relative-caret-position="-136">
           <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
