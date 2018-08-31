@@ -1,8 +1,12 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class book {
+
 
     String name;
     String surename;
@@ -10,7 +14,7 @@ public class book {
     int pages;
     String description;
 
-    public book(String name, String surename, String title, int pages, String description) {
+    public book(String name, String surename, String title, int pages, String description) throws IOException {
 
         this.name = name;
         this.surename = surename;
@@ -45,12 +49,15 @@ public class book {
         return (this.getName() + " " + this.getSurename() + " " + this.getTitle() + " " + this.getPages() + " " + this.getDescription());
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         book one = new book("Remigiusz", "Mroz", "Zerwa", 496, "\nOstatnia część pentalogii z Wiktorem Forstem. Zbocza gór znów spłynęły krwią.\nW środku sezonu turystycznego na Rysach odnalezione zostają zwłoki starszego mężczyzny, a sposób działania sprawcy prowadzi wyłącznie do jednego wniosku: wrócił ten, którego wszyscy się obawiali.\nOprócz monety w ustach, na nagim torsie ofiary znajduje się wycięty w skórze, krwawy napis: Revertar ad Ierusalem in misericordiis.\nSytuacje komplikuje fakt, że ofiarę umieszczono na samym środku słupka granicznego, przez co śledztwo zamierzają prowadzić zarówno Polacy, jak i Słowacy.\nW mieście i na szlakach wybucha panika, tymczasem Wiktor Forst budzi się w zakopiańskim szpitalu. Nie pamięta, co działo się z nim, od kiedy opuścił Polskę, by sprawdzić, co znajduje się w pewnej skrytce pocztowej");
-       System.out.println(one.toString());
+     // System.out.println(one.toString());
      }
+    // String content = new String (String.valueOf(Files.readAllLines( Paths.get("book.txt"))));{
+   // System.out.println(Paths.get()));
 
 
 }
+
 
